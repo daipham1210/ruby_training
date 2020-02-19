@@ -76,3 +76,5 @@ expect: [2, 4, 6, 8, 10, 12, 14, 16, 18] (using map). Assign new array to array.
 ```rb
 array = array.map { |item| item * 2 }
 ```
+pop(2)
+
