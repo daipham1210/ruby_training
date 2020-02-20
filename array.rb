@@ -15,7 +15,7 @@ p a[0..3]
 # last lay cac phan tu cuoi cung
 p a.last(3)
 
-a << 3 # = a.push(3  # them phan tu vao cuoi mang
+a << 3 # = a.push(3)  # them phan tu vao cuoi mang
 p a
 
 a.unshift(0) #  phan tu vao dau mang
@@ -64,3 +64,14 @@ p a
 a = [1, 2, 3, 4, 5]
 a = a.map { |x| x * 2}
 p a 
+
+#sap xep mang 
+a = [3, 2, 5, 1, 4]
+a.sort! #sap xep chieu tang dan
+p a
+
+a = [3, 2, 5, 1, 4]
+a = a.sort.reverse #sap xep theo chieu giam dan
+p a
+
+
