@@ -35,8 +35,8 @@ Expect:
   uncles: ["bob", "joe", "steve"],
   dad: "water",
   mom: "daisy",
-  sisters: ["frank","rob","david"]
-  brothers: ["jane", "jill", "beth"]
+  sisters: ["frank","rob","david"],
+  brothers: ["jane", "jill", "beth"],
   aunts: ["mary","sally","susan"]
 }
 ```
