@@ -2,7 +2,7 @@ hash = { key1: nil, key2: true, key3: 'string' }
 
 p hash
 
-p hash[:key1] # truy cap value cua hash thong qua key 
+p hash[:key1] # truy cap value cua hash thong qua key
 
 p hash.keys # lay tat ca cac key cua hash ....Tra ve array
 
@@ -10,8 +10,8 @@ p hash.values # lay tat ca cac value cua hash....Tra ve array
 
 # them hash vao hash
 
-hash[:key4] = [1,2,3]
-sub_hash = { key5: {key6: 'value'} }
+hash[:key4] = [1, 2, 3]
+sub_hash = { key5: { key6: 'value' } }
 hash.merge!(sub_hash)
 p hash
 
@@ -24,7 +24,7 @@ hash.each {|k, v| p k; p v } # param dau tien la key, param thu 2 la value
 diem_thi = { toan: 8, van: 5, anh: 7 }
 diemtb = 0
 diem_thi.each do |k, v|
-    diemtb += v 
+    diemtb += v
 end 
 p diemtb / 3
 
@@ -32,7 +32,7 @@ p diemtb / 3
 diem_thi = { toan: 8, van: 5, anh: 7 }
 diemtb = 0
 diem_thi.each_value do |v|
-    diemtb += v 
+   diemtb += v
 end 
 p diemtb / 3
 
