@@ -6,6 +6,10 @@ p hash[:key1] # truy cap value cua hash thong qua key
 
 p hash.keys # lay tat ca cac key cua hash ....Tra ve array
 
+p hash.select #tim kiem tat ca cac cap key,value trong hash thoa dieu kien
+
+p hash.flatten # gop tat ca cac mang con vao mang cha
+
 p hash.values # lay tat ca cac value cua hash....Tra ve array
 
 # them hash vao hash
@@ -36,7 +40,7 @@ diem_thi.each_value do |v|
 end 
 p diemtb / 3
 
-p diem_thi.keys
+p diem_thi.keys 
 
 #kiem tra hash co chua 1 key nao do hay khong
 p diem_thi.key?(:toan) #tra ve true hoac false
@@ -83,7 +87,6 @@ phong_thi.each_key do |k|
     end
 end
 p sbd
-
 
 # p phong_thi.values
 # # p sbd += phong
