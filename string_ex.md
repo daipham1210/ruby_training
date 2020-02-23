@@ -4,6 +4,7 @@ Write a function to draw a string as bold or italic text.
 ```<i> Ruby </i>```
 * bold
 ```<b> Ruby </b>```
+
 Params: string, type(italic or bold)
 
 Example:
