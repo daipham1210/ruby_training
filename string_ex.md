@@ -19,9 +19,9 @@ Params: string 1, string 2
 
 Example:
 
-str1 = 'th'
-str2 = 'Pyon'
-Output = 'Python' ( 'Py' + str1 + 'on' )
+Input: str1 = 'th', str2 = 'Pyon'
+
+Output: 'Python' ( 'Py' + str1 + 'on' )
 
 ## Ex 3
 Write a function to count the occurrences of a specified character in a given string
@@ -31,6 +31,7 @@ Params: string, character
 Example:
 
 Input: 'Javascript', 'a'
+
 Output: 2
 
 
@@ -42,6 +43,7 @@ Params: string
 Example:
 
 Input: 'Kati Kati'
+
 Output: true
 
 ## Ex 5
@@ -53,6 +55,7 @@ Params: string1, string2
 Example:
 
 Input: 'Hello ', 'Ruby'
+
 Output: 'Hello Ruby'
 
 
@@ -65,4 +68,5 @@ Params: string
 Example:
 
 Input: 'Ja v aS cr     ip      t'
+
 Output: 'JavaScript'
